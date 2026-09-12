@@ -1,0 +1,421 @@
+{
+  "timestamp": "2026-09-09 14:12:49",
+  "experiment": "Learning-Curve / Sample-Efficiency (Seed=1, 5-Shot)",
+  "checkpoints": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250
+  ],
+  "total_checkpoint_files": 48,
+  "curves": {
+    "cifar": {
+      "EXP-F3": {
+        "0": 41.451111264526844,
+        "50": 50.797777868807316,
+        "100": 51.95555563022693,
+        "150": 54.535555616021156,
+        "200": 55.60888893157244,
+        "250": 56.35555571317673
+      },
+      "ProtoNet": {
+        "0": 40.46222239236037,
+        "50": 45.82666681955258,
+        "100": 50.61111120134592,
+        "150": 51.382222344477974,
+        "200": 53.01111123214165,
+        "250": 53.58222232262293
+      },
+      "RelationNet": {
+        "0": 19.104444622372586,
+        "50": 39.47777785857519,
+        "100": 42.41777793318033,
+        "150": 44.802222254375614,
+        "200": 45.340000147620835,
+        "250": 46.94666684667269
+      },
+      "MAML": {
+        "0": 27.542222414165735,
+        "50": 27.037777935465176,
+        "100": 34.17777787397305,
+        "150": 36.00000015646219,
+        "200": 36.853333443403244,
+        "250": 34.64888904740413
+      }
+    },
+    "mini": {
+      "EXP-F3": {
+        "0": 36.45111125210921,
+        "50": 48.324444591999054,
+        "100": 47.14000019182762,
+        "150": 50.71555565794309,
+        "200": 52.068888987104096,
+        "250": 53.0555557012558
+      },
+      "ProtoNet": {
+        "0": 38.92222241063913,
+        "50": 43.61777793367704,
+        "100": 45.39777791748444,
+        "150": 47.62222241858641,
+        "200": 49.39111125220855,
+        "250": 49.50222232441107
+      },
+      "RelationNet": {
+        "0": 19.784444560607273,
+        "50": 29.637777894735336,
+        "100": 33.80000010753671,
+        "150": 39.67777790377537,
+        "200": 40.904444528122745,
+        "250": 39.87777791172266
+      },
+      "MAML": {
+        "0": 26.686666815231245,
+        "50": 26.73111132780711,
+        "100": 30.404444590210915,
+        "150": 29.440000154078007,
+        "200": 32.03333352506161,
+        "250": 31.80888904631138
+      }
+    }
+  },
+  "manifest": [
+    {
+      "model": "EXP-F3",
+      "dataset": "cifar",
+      "episode": 0,
+      "acc": 41.451111264526844,
+      "md5": "bcba2d30ed25e048451e6a37e4226933"
+    },
+    {
+      "model": "EXP-F3",
+      "dataset": "cifar",
+      "episode": 50,
+      "acc": 50.797777868807316,
+      "md5": "2b6d7dbbb0ab5b6b3f9fed15bdc9f2ae"
+    },
+    {
+      "model": "EXP-F3",
+      "dataset": "cifar",
+      "episode": 100,
+      "acc": 51.95555563022693,
+      "md5": "9c52f4c4635dbb9a37c69d150545c22f"
+    },
+    {
+      "model": "EXP-F3",
+      "dataset": "cifar",
+      "episode": 150,
+      "acc": 54.535555616021156,
+      "md5": "15e13c95d2a391132c99221e074cc400"
+    },
+    {
+      "model": "EXP-F3",
+      "dataset": "cifar",
+      "episode": 200,
+      "acc": 55.60888893157244,
+      "md5": "bca7f782c545107b12c164436adc6c70"
+    },
+    {
+      "model": "EXP-F3",
+      "dataset": "cifar",
+      "episode": 250,
+      "acc": 56.35555571317673,
+      "md5": "17b61c2dce2b95adf3d6910c7b105b81"
+    },
+    {
+      "model": "EXP-F3",
+      "dataset": "mini",
+      "episode": 0,
+      "acc": 36.45111125210921,
+      "md5": "c34daff88223344394d4ec2c6b679e5d"
+    },
+    {
+      "model": "EXP-F3",
+      "dataset": "mini",
+      "episode": 50,
+      "acc": 48.324444591999054,
+      "md5": "6b1236d3ebbfdcd79458b56e7df5e15d"
+    },
+    {
+      "model": "EXP-F3",
+      "dataset": "mini",
+      "episode": 100,
+      "acc": 47.14000019182762,
+      "md5": "f06543225089b2406459f64f5642f143"
+    },
+    {
+      "model": "EXP-F3",
+      "dataset": "mini",
+      "episode": 150,
+      "acc": 50.71555565794309,
+      "md5": "28af5aef3390243bbb9af74ea1b2b909"
+    },
+    {
+      "model": "EXP-F3",
+      "dataset": "mini",
+      "episode": 200,
+      "acc": 52.068888987104096,
+      "md5": "de3adcd9776e815c0d02386c37bbb740"
+    },
+    {
+      "model": "EXP-F3",
+      "dataset": "mini",
+      "episode": 250,
+      "acc": 53.0555557012558,
+      "md5": "94d877fe3d95383703325dfc5ff08629"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "cifar",
+      "episode": 0,
+      "acc": 40.46222239236037,
+      "md5": "10e87141c93c391ab4754fd4113bfcab"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "cifar",
+      "episode": 50,
+      "acc": 45.82666681955258,
+      "md5": "1ca3eb62f4c81772b3c73fb1b5309767"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "cifar",
+      "episode": 100,
+      "acc": 50.61111120134592,
+      "md5": "81ab8a34fdcdc7362bd6b07a89ba40f3"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "cifar",
+      "episode": 150,
+      "acc": 51.382222344477974,
+      "md5": "3af27eb6524b78706ebfc80fc0b81460"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "cifar",
+      "episode": 200,
+      "acc": 53.01111123214165,
+      "md5": "dfa34d92d3e684bf4e2322a236a6369e"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "cifar",
+      "episode": 250,
+      "acc": 53.58222232262293,
+      "md5": "600767d6a3fefb32caa7a9a8ac91105b"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "mini",
+      "episode": 0,
+      "acc": 38.92222241063913,
+      "md5": "74c73572a08742ffcbcde687d541b729"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "mini",
+      "episode": 50,
+      "acc": 43.61777793367704,
+      "md5": "7dd680431a61c7532362954aac77d74f"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "mini",
+      "episode": 100,
+      "acc": 45.39777791748444,
+      "md5": "00bdfda22bacf558f1971efeed94e2f7"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "mini",
+      "episode": 150,
+      "acc": 47.62222241858641,
+      "md5": "05e31a7861b2a3846c2b3e393bf2c3b1"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "mini",
+      "episode": 200,
+      "acc": 49.39111125220855,
+      "md5": "90d75fa9bfa3a33a61d4d4cec5df388b"
+    },
+    {
+      "model": "ProtoNet",
+      "dataset": "mini",
+      "episode": 250,
+      "acc": 49.50222232441107,
+      "md5": "27d13c1298f515db896e5e083b862a46"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "cifar",
+      "episode": 0,
+      "acc": 19.104444622372586,
+      "md5": "810d51e8712106662b88a5e90beae1e7"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "cifar",
+      "episode": 50,
+      "acc": 39.47777785857519,
+      "md5": "6d45434827fb8a171a615cb749135b05"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "cifar",
+      "episode": 100,
+      "acc": 42.41777793318033,
+      "md5": "3e183bf2fd2a8c671f65792a160ba0ad"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "cifar",
+      "episode": 150,
+      "acc": 44.802222254375614,
+      "md5": "b60c6059fbbb7fa7ba53c423a0151217"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "cifar",
+      "episode": 200,
+      "acc": 45.340000147620835,
+      "md5": "661500ee483dd1b4cca55c708e55d5ed"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "cifar",
+      "episode": 250,
+      "acc": 46.94666684667269,
+      "md5": "90a7d14b8262ef8b198434de800fe4c6"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "mini",
+      "episode": 0,
+      "acc": 19.784444560607273,
+      "md5": "f34a6b5961c8dc02e0b0d14b8243dc9b"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "mini",
+      "episode": 50,
+      "acc": 29.637777894735336,
+      "md5": "e78a74c7fc8d07c1ea4bc9ded9a9ea65"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "mini",
+      "episode": 100,
+      "acc": 33.80000010753671,
+      "md5": "5c58a27993917d5e73d258b1cc463a35"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "mini",
+      "episode": 150,
+      "acc": 39.67777790377537,
+      "md5": "c551934b90c0d17466a6bdd4c3ce42ea"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "mini",
+      "episode": 200,
+      "acc": 40.904444528122745,
+      "md5": "00c64ea68fb05edfbaeaf1aac7366c50"
+    },
+    {
+      "model": "RelationNet",
+      "dataset": "mini",
+      "episode": 250,
+      "acc": 39.87777791172266,
+      "md5": "23229215a4e64164118e4e0be684683e"
+    },
+    {
+      "model": "MAML",
+      "dataset": "cifar",
+      "episode": 0,
+      "acc": 27.542222414165735,
+      "md5": "89213332a9855b1ac442fabf88ac96cc"
+    },
+    {
+      "model": "MAML",
+      "dataset": "cifar",
+      "episode": 50,
+      "acc": 27.037777935465176,
+      "md5": "4776a841afbfa6ceca0468f2147c317a"
+    },
+    {
+      "model": "MAML",
+      "dataset": "cifar",
+      "episode": 100,
+      "acc": 34.17777787397305,
+      "md5": "1e9587c224e879856aae4588c4b1e688"
+    },
+    {
+      "model": "MAML",
+      "dataset": "cifar",
+      "episode": 150,
+      "acc": 36.00000015646219,
+      "md5": "7b8a6788081acd1d47028a276e2f933e"
+    },
+    {
+      "model": "MAML",
+      "dataset": "cifar",
+      "episode": 200,
+      "acc": 36.853333443403244,
+      "md5": "03404dee1c85299eebe19ce92312336f"
+    },
+    {
+      "model": "MAML",
+      "dataset": "cifar",
+      "episode": 250,
+      "acc": 34.64888904740413,
+      "md5": "c94d3ea973633ee90987bb79411be0be"
+    },
+    {
+      "model": "MAML",
+      "dataset": "mini",
+      "episode": 0,
+      "acc": 26.686666815231245,
+      "md5": "6a1ad84ceec803305794d8fb341049fc"
+    },
+    {
+      "model": "MAML",
+      "dataset": "mini",
+      "episode": 50,
+      "acc": 26.73111132780711,
+      "md5": "3ba8685791c9a3d03b66785d5f4a9833"
+    },
+    {
+      "model": "MAML",
+      "dataset": "mini",
+      "episode": 100,
+      "acc": 30.404444590210915,
+      "md5": "1c1df2342eccca1e407fe0d6c078c958"
+    },
+    {
+      "model": "MAML",
+      "dataset": "mini",
+      "episode": 150,
+      "acc": 29.440000154078007,
+      "md5": "b5ce536cc787688e11aeaa9f2accd3b4"
+    },
+    {
+      "model": "MAML",
+      "dataset": "mini",
+      "episode": 200,
+      "acc": 32.03333352506161,
+      "md5": "f964daf53bd7dc41573dad96fb983a9b"
+    },
+    {
+      "model": "MAML",
+      "dataset": "mini",
+      "episode": 250,
+      "acc": 31.80888904631138,
+      "md5": "6112def2e717b1c2db26a5c02ee74868"
+    }
+  ]
+}

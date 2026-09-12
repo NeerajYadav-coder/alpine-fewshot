@@ -1,0 +1,209 @@
+{
+  "timestamp": "2026-09-09 07:15:30 IST",
+  "model_name": "ProtoNet Baseline",
+  "trainable_parameters": 47630,
+  "total_checkpoints": 20,
+  "all_verified": true,
+  "checkpoints": [
+    {
+      "filename": "sota_protonet_cifar_1shot_seed1.pt",
+      "dataset": "cifar",
+      "shot": 1,
+      "seed": 1,
+      "reported_std_accuracy": 41.7489,
+      "reloaded_std_accuracy": 41.7489,
+      "md5": "051ffbb377a618c649f5f54265ddc3a5",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_cifar_1shot_seed7.pt",
+      "dataset": "cifar",
+      "shot": 1,
+      "seed": 7,
+      "reported_std_accuracy": 39.9244,
+      "reloaded_std_accuracy": 39.9244,
+      "md5": "7a3970cce6b1f2457f46e2d465846260",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_cifar_1shot_seed21.pt",
+      "dataset": "cifar",
+      "shot": 1,
+      "seed": 21,
+      "reported_std_accuracy": 39.9533,
+      "reloaded_std_accuracy": 39.9533,
+      "md5": "909893edefdec0837eadfa9056f5346e",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_cifar_1shot_seed42.pt",
+      "dataset": "cifar",
+      "shot": 1,
+      "seed": 42,
+      "reported_std_accuracy": 39.8756,
+      "reloaded_std_accuracy": 39.8756,
+      "md5": "2730a1360f92607e66b9aeb4b48845c2",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_cifar_1shot_seed123.pt",
+      "dataset": "cifar",
+      "shot": 1,
+      "seed": 123,
+      "reported_std_accuracy": 40.7378,
+      "reloaded_std_accuracy": 40.7378,
+      "md5": "e6ec19e2ae5b4c64e0432a7e2dd4867a",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_cifar_5shot_seed1.pt",
+      "dataset": "cifar",
+      "shot": 5,
+      "seed": 1,
+      "reported_std_accuracy": 53.5822,
+      "reloaded_std_accuracy": 53.5822,
+      "md5": "11c2b5333de4b1f9554711134b1f6038",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_cifar_5shot_seed7.pt",
+      "dataset": "cifar",
+      "shot": 5,
+      "seed": 7,
+      "reported_std_accuracy": 53.3422,
+      "reloaded_std_accuracy": 53.3422,
+      "md5": "49c562b42f3efcc1eb8f7ca857efa0f6",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_cifar_5shot_seed21.pt",
+      "dataset": "cifar",
+      "shot": 5,
+      "seed": 21,
+      "reported_std_accuracy": 53.7267,
+      "reloaded_std_accuracy": 53.7267,
+      "md5": "d4b8ec76e83f649e63621c761610c057",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_cifar_5shot_seed42.pt",
+      "dataset": "cifar",
+      "shot": 5,
+      "seed": 42,
+      "reported_std_accuracy": 53.8222,
+      "reloaded_std_accuracy": 53.8222,
+      "md5": "0298cc194ae33f654c8610fef1489755",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_cifar_5shot_seed123.pt",
+      "dataset": "cifar",
+      "shot": 5,
+      "seed": 123,
+      "reported_std_accuracy": 54.3711,
+      "reloaded_std_accuracy": 54.3711,
+      "md5": "24bc8f9c636c054b14de6fe18edc2e42",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_mini_1shot_seed1.pt",
+      "dataset": "mini",
+      "shot": 1,
+      "seed": 1,
+      "reported_std_accuracy": 34.6267,
+      "reloaded_std_accuracy": 34.6267,
+      "md5": "59ef13a488ce0f757d02a2014abfedb3",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_mini_1shot_seed7.pt",
+      "dataset": "mini",
+      "shot": 1,
+      "seed": 7,
+      "reported_std_accuracy": 36.0022,
+      "reloaded_std_accuracy": 36.0022,
+      "md5": "ddada0e82375f10aca90b8707d0705bb",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_mini_1shot_seed21.pt",
+      "dataset": "mini",
+      "shot": 1,
+      "seed": 21,
+      "reported_std_accuracy": 35.0244,
+      "reloaded_std_accuracy": 35.0244,
+      "md5": "0c6f728364647f7ab388cffedf29ac41",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_mini_1shot_seed42.pt",
+      "dataset": "mini",
+      "shot": 1,
+      "seed": 42,
+      "reported_std_accuracy": 35.1933,
+      "reloaded_std_accuracy": 35.1933,
+      "md5": "dd8b69dd66f7996766f8656619ab7fa4",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_mini_1shot_seed123.pt",
+      "dataset": "mini",
+      "shot": 1,
+      "seed": 123,
+      "reported_std_accuracy": 35.3911,
+      "reloaded_std_accuracy": 35.3911,
+      "md5": "37b649bb803dcd8e46f95cdf9dae8c13",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_mini_5shot_seed1.pt",
+      "dataset": "mini",
+      "shot": 5,
+      "seed": 1,
+      "reported_std_accuracy": 49.5022,
+      "reloaded_std_accuracy": 49.5022,
+      "md5": "992016e8f9a572ea5c381abee5c8faeb",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_mini_5shot_seed7.pt",
+      "dataset": "mini",
+      "shot": 5,
+      "seed": 7,
+      "reported_std_accuracy": 48.3133,
+      "reloaded_std_accuracy": 48.3133,
+      "md5": "df582606539feaa1ee3f8bf5cc831aab",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_mini_5shot_seed21.pt",
+      "dataset": "mini",
+      "shot": 5,
+      "seed": 21,
+      "reported_std_accuracy": 49.6644,
+      "reloaded_std_accuracy": 49.6644,
+      "md5": "92c9b1da9d7313e389bbe9db848ac9b5",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_mini_5shot_seed42.pt",
+      "dataset": "mini",
+      "shot": 5,
+      "seed": 42,
+      "reported_std_accuracy": 48.3956,
+      "reloaded_std_accuracy": 48.3956,
+      "md5": "9dbfed0708dc48a951de966753b5b036",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_mini_5shot_seed123.pt",
+      "dataset": "mini",
+      "shot": 5,
+      "seed": 123,
+      "reported_std_accuracy": 48.2444,
+      "reloaded_std_accuracy": 48.2444,
+      "md5": "f5eb6c17ec2f1433729a76241f018f13",
+      "verified": true
+    }
+  ]
+}

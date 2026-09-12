@@ -1,0 +1,209 @@
+{
+  "timestamp": "2026-09-11 13:21:11 IST",
+  "model_class": "ProtoNetModernized (Conv-4 + LayerNorm + AdamW)",
+  "trainable_parameters": 47770,
+  "total_checkpoints": 20,
+  "all_verified": true,
+  "checkpoints": [
+    {
+      "filename": "sota_protonet_modernized_cifar_1shot_seed1.pt",
+      "dataset": "cifar",
+      "shot": 1,
+      "seed": 1,
+      "reported_std_accuracy": 32.14,
+      "reloaded_std_accuracy": 32.1356,
+      "md5": "13d9f6c957d1ec36ea97478536521bc8",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_cifar_1shot_seed7.pt",
+      "dataset": "cifar",
+      "shot": 1,
+      "seed": 7,
+      "reported_std_accuracy": 38.08,
+      "reloaded_std_accuracy": 38.0844,
+      "md5": "3963755d97f20eab8456d698f05fc659",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_cifar_1shot_seed21.pt",
+      "dataset": "cifar",
+      "shot": 1,
+      "seed": 21,
+      "reported_std_accuracy": 39.08,
+      "reloaded_std_accuracy": 39.0844,
+      "md5": "2e52fe8dc0a3a1c27cb015c68889dd9d",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_cifar_1shot_seed42.pt",
+      "dataset": "cifar",
+      "shot": 1,
+      "seed": 42,
+      "reported_std_accuracy": 35.29,
+      "reloaded_std_accuracy": 35.2933,
+      "md5": "74e318fbf35560c390910d06a4b3a090",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_cifar_1shot_seed123.pt",
+      "dataset": "cifar",
+      "shot": 1,
+      "seed": 123,
+      "reported_std_accuracy": 34.81,
+      "reloaded_std_accuracy": 34.8111,
+      "md5": "d80643802fc1ed402e3186287db77000",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_cifar_5shot_seed1.pt",
+      "dataset": "cifar",
+      "shot": 5,
+      "seed": 1,
+      "reported_std_accuracy": 50.45,
+      "reloaded_std_accuracy": 50.4467,
+      "md5": "5747f25c5ff51225f9de702c250d5046",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_cifar_5shot_seed7.pt",
+      "dataset": "cifar",
+      "shot": 5,
+      "seed": 7,
+      "reported_std_accuracy": 50.21,
+      "reloaded_std_accuracy": 50.2111,
+      "md5": "327982cabdc12fed50b17cbc742356d2",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_cifar_5shot_seed21.pt",
+      "dataset": "cifar",
+      "shot": 5,
+      "seed": 21,
+      "reported_std_accuracy": 49.35,
+      "reloaded_std_accuracy": 49.3489,
+      "md5": "51187086528b51c5576486465b0494e6",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_cifar_5shot_seed42.pt",
+      "dataset": "cifar",
+      "shot": 5,
+      "seed": 42,
+      "reported_std_accuracy": 51.13,
+      "reloaded_std_accuracy": 51.1289,
+      "md5": "3c2a4e51aeef93d04b0ceb95091711bf",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_cifar_5shot_seed123.pt",
+      "dataset": "cifar",
+      "shot": 5,
+      "seed": 123,
+      "reported_std_accuracy": 48.48,
+      "reloaded_std_accuracy": 48.4822,
+      "md5": "551768a9bceaf46ec4d85a4143c6a318",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_mini_1shot_seed1.pt",
+      "dataset": "mini",
+      "shot": 1,
+      "seed": 1,
+      "reported_std_accuracy": 27.43,
+      "reloaded_std_accuracy": 27.4333,
+      "md5": "0e0d77349e8ac037c401549e681153fe",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_mini_1shot_seed7.pt",
+      "dataset": "mini",
+      "shot": 1,
+      "seed": 7,
+      "reported_std_accuracy": 32.46,
+      "reloaded_std_accuracy": 32.46,
+      "md5": "388c9651137c82b845af7c7a7833f5b0",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_mini_1shot_seed21.pt",
+      "dataset": "mini",
+      "shot": 1,
+      "seed": 21,
+      "reported_std_accuracy": 26.96,
+      "reloaded_std_accuracy": 26.9578,
+      "md5": "a2f19ddd869ae8b53dd3e000604bfe2f",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_mini_1shot_seed42.pt",
+      "dataset": "mini",
+      "shot": 1,
+      "seed": 42,
+      "reported_std_accuracy": 29.68,
+      "reloaded_std_accuracy": 29.6778,
+      "md5": "eb6aca4eccd2ffaf2359969d89efe88a",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_mini_1shot_seed123.pt",
+      "dataset": "mini",
+      "shot": 1,
+      "seed": 123,
+      "reported_std_accuracy": 26.54,
+      "reloaded_std_accuracy": 26.5378,
+      "md5": "39c40db60ec39195cb04abe8f658d4f6",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_mini_5shot_seed1.pt",
+      "dataset": "mini",
+      "shot": 5,
+      "seed": 1,
+      "reported_std_accuracy": 42.36,
+      "reloaded_std_accuracy": 42.36,
+      "md5": "3ad906c25b7ad5c91d4b005bbe696504",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_mini_5shot_seed7.pt",
+      "dataset": "mini",
+      "shot": 5,
+      "seed": 7,
+      "reported_std_accuracy": 43.1,
+      "reloaded_std_accuracy": 43.0978,
+      "md5": "4a21a8d18fd9735f24bb5e9eba78848f",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_mini_5shot_seed21.pt",
+      "dataset": "mini",
+      "shot": 5,
+      "seed": 21,
+      "reported_std_accuracy": 43.3,
+      "reloaded_std_accuracy": 43.3022,
+      "md5": "d1ba3ffd04d19d0be2aedc684a900cfd",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_mini_5shot_seed42.pt",
+      "dataset": "mini",
+      "shot": 5,
+      "seed": 42,
+      "reported_std_accuracy": 44.6,
+      "reloaded_std_accuracy": 44.6022,
+      "md5": "8403ac94dc29de8587c1465599331e38",
+      "verified": true
+    },
+    {
+      "filename": "sota_protonet_modernized_mini_5shot_seed123.pt",
+      "dataset": "mini",
+      "shot": 5,
+      "seed": 123,
+      "reported_std_accuracy": 41.72,
+      "reloaded_std_accuracy": 41.7244,
+      "md5": "5ea965f771ef2f981354ba747f998d27",
+      "verified": true
+    }
+  ]
+}
