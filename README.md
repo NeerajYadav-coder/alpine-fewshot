@@ -4,8 +4,7 @@ Official PyTorch implementation, experimental manifests, 5-seed model checkpoint
 
 > **"ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning"**  
 > *Neeraj Yadav (Independent Researcher, Uttar Pradesh, India)*  
-> **ORCID iD**: [0009-0000-7847-0588](https://orcid.org/0009-0000-7847-0588)  
-> **arXiv Preprint**: *[arXiv:240X.XXXXX - Placeholder]*
+> **ORCID iD**: [0009-0000-7847-0588](https://orcid.org/0009-0000-7847-0588) 
 
 ---
 
