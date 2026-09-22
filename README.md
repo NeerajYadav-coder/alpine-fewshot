@@ -1,10 +1,14 @@
 # ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning
 
+[![arXiv](https://img.shields.io/badge/arXiv-2609.22323-b31b1b.svg)](https://arxiv.org/abs/2609.22323)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Official PyTorch implementation, experimental manifests, 5-seed model checkpoints, and reproducibility tools accompanying the research paper:
 
 > **"ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning"**  
 > *Neeraj Yadav (Independent Researcher, Uttar Pradesh, India)*  
-> **ORCID iD**: [0009-0000-7847-0588](https://orcid.org/0009-0000-7847-0588) 
+> **ORCID iD**: [0009-0000-7847-0588](https://orcid.org/0009-0000-7847-0588)  
+> **arXiv Preprint**: [arXiv:2609.22323](https://arxiv.org/abs/2609.22323) | [PDF](https://arxiv.org/pdf/2609.22323)
 
 ---
 
@@ -123,8 +127,9 @@ If you find this codebase or paper useful in your research, please cite:
 @article{yadav2026alpine,
   title={ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning},
   author={Yadav, Neeraj},
-  journal={arXiv preprint arXiv:240X.XXXXX},
-  year={2026}
+  journal={arXiv preprint arXiv:2609.22323},
+  year={2026},
+  url={https://arxiv.org/abs/2609.22323}
 }
 ```
 
