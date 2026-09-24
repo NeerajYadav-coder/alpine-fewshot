@@ -1,6 +1,8 @@
 # ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning
 
 [![arXiv](https://img.shields.io/badge/arXiv-2609.22323-b31b1b.svg)](https://arxiv.org/abs/2609.22323)
+[![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-ffd21e.svg)](https://huggingface.co/NJ50/alpine-fewshot)
+[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo%20Space-blue.svg)](https://huggingface.co/spaces/NJ50/alpine-fewshot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Official PyTorch implementation, experimental manifests, 5-seed model checkpoints, and reproducibility tools accompanying the research paper:
@@ -8,7 +10,9 @@ Official PyTorch implementation, experimental manifests, 5-seed model checkpoint
 > **"ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning"**  
 > *Neeraj Yadav (Independent Researcher, Uttar Pradesh, India)*  
 > **ORCID iD**: [0009-0000-7847-0588](https://orcid.org/0009-0000-7847-0588)  
-> **arXiv Preprint**: [arXiv:2609.22323](https://arxiv.org/abs/2609.22323) | [PDF](https://arxiv.org/pdf/2609.22323)
+> **arXiv Preprint**: [arXiv:2609.22323](https://arxiv.org/abs/2609.22323) | [PDF](https://arxiv.org/pdf/2609.22323)  
+> **Hugging Face Hub**: [NJ50/alpine-fewshot](https://huggingface.co/NJ50/alpine-fewshot)  
+> **Interactive Demo**: [Hugging Face Space](https://huggingface.co/spaces/NJ50/alpine-fewshot)
 
 ---
 
@@ -73,6 +77,8 @@ All experiments follow a strictly matched **iso-episode-budget protocol**:
 ## 🔐 Checkpoint Verification & SHA-256 Hash Audit
 
 Every saved `.pt` checkpoint file is paired with an entry in `manifests/` containing its exact SHA-256 checksum and evaluation accuracy. 
+
+Canonical EXP-F3 (22k) and EXP-F3-35k model weights are also hosted on the Hugging Face Hub at [🤗 `NJ50/alpine-fewshot`](https://huggingface.co/NJ50/alpine-fewshot). You can test the patch locator interactively in your browser at [🤗 ALPINE Space Demo](https://huggingface.co/spaces/NJ50/alpine-fewshot).
 
 To verify checkpoint integrity against the manifest, run:
 
